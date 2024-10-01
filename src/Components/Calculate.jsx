@@ -75,9 +75,9 @@ const Calculate = () => {
   }, [displayValue]);
 
   return (
-    <div className="flex flex-col justify-center items-center w-full h-[100svh]">
+    <div className="flex flex-col justify-end items-center pb-5 w-full h-[100svh]">
       <div className="grid grid-cols-1">
-        <input ref={inputRef} className="outline-none text-[4rem] text-right w-auto max-w-[500px] px-[2rem]" type="text" readOnly value={displayValue} />
+        <input ref={inputRef} className="outline-none text-[4rem] text-right w-auto max-w-[500px] bg-white px-[2rem]" type="text" readOnly value={displayValue} />
       </div>
 
       <div className="max-w-[500px] flex items-center justify-center bg-gray-50">
